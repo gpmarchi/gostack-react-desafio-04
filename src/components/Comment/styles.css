@@ -1,0 +1,31 @@
+.comment {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.comment aside {
+  margin-right: 10px;
+}
+
+.comment main {
+  background: #eeeeee;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+}
+
+.comment main span.author {
+  margin-right: 5px;
+}
+
+.comment main span.author,
+.comment main span.content {
+  color: #4a4a4a;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.comment main span.content {
+  font-weight: normal;
+}
