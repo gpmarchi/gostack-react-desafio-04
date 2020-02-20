@@ -1,7 +1,10 @@
 {
   "name": "gostack-react-desafio-04",
   "version": "1.0.0",
-  "description": "",
+  "description": "Desafio 4 Bootcamp GoStack Rocketseat",
+  "repository": {
+    "url": "https://github.com/gpmarchi/gostack-react-desafio-04"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
